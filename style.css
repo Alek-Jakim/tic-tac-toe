@@ -31,7 +31,7 @@ section {
     width: 100px;
     height: 100px;
     box-shadow: 0 0 0 1px #333333;
-    border: 1px solid #333333;
+    border: 2px solid #f4f4f4 0.3;
     background: #000;
     cursor: pointer;
     line-height: 100px;
@@ -41,6 +41,10 @@ section {
 .cell:active {
     transform: scale(0.95);
     opacity: 0.8;
+}
+
+.game-status {
+    font-size: 2rem;
 }
 
 .game-restart {
